@@ -38,7 +38,7 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-          folder: dist
+          folder: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
